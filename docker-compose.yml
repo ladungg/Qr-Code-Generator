@@ -1,0 +1,7 @@
+services:
+  qr-code-generator:
+    build: .
+    ports:
+      - "8080:80"
+    restart: always
+    container_name: qr-code-generator
